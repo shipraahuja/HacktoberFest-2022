@@ -15,10 +15,7 @@ class Solution{
         //     }
         // }
         // return ans;
-        int count=0;
-        int sum=0;
-        HashMap<Integer,Integer> map=new HashMap<>();
-        for(int i = 0; i < N; i++)
+      
         {
             sum += A[i];
             if(!map.containsKey(sum)) {
