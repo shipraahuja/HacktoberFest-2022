@@ -9,12 +9,6 @@ public class SmallerThanCurrentNumber {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter number of terms in array : ");
         int term = in.nextInt();
-        System.out.print("Enter array elements : ");
-        int[] arr = new int[term];
-        for (int i = 0; i < term; i++) {
-            arr[i] = in.nextInt();
-        }
-        int[] ar = smallerNumbersThanCurrent(arr);
         System.out.println("Output Array = " + Arrays.toString(ar));
         in.close();
     }
