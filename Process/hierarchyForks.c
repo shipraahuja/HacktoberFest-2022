@@ -3,10 +3,7 @@
 #include <unistd.h>     
 #include <sys/types.h> 
 
-void forkNLevels(int n){ 
-    if(n <= 1) return;   
-    pid_t pid = fork();  
-    if(pid){            
+void forkNLevels(
         pid = fork();
         if(pid == 0){
             return forkNLevels(n-1);
