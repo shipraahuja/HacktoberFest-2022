@@ -11,13 +11,6 @@ public class Main {
         int ans = linearSearch(nums, target);
         int num = LinearSearch(nums, target);
         System.out.println(ans + " " + num);
-    }
-    // search the target and return the element
-    static int LinearSearch(int[] arr, int target){
-        if ((arr.length == 0)) {
-            return -1;
-        }
-
         // run a for loop
         for (int element: arr) {
             // check for element at every index if it is = target
